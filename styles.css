@@ -1,0 +1,51 @@
+body {
+
+    margin: 0;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    place-items: center;
+    padding-top: 20px;
+    min-height: 100vh;
+    font-weight: bold;
+}
+
+#palleteContainer {
+
+    width: 320px;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    margin: 100px 0;
+    border-radius: 4px;
+}
+
+.palleteItem {
+
+    transition: background-color .5s;
+
+}
+
+.palleteItem span {
+
+    padding: 10px;
+    color: whitesmoke;
+    display: inline-block;
+    min-width: 80px;
+}
+
+button {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    color: beige;
+    border-radius: 4px;
+    background: black;
+
+}
